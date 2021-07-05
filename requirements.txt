@@ -1,0 +1,14 @@
+web3==5.20.0
+bit==0.7.2
+python-dotenv==0.18.0
+eth-abi==2.1.1
+eth-account==0.5.4
+eth-hash==0.3.1
+eth-keyfile==0.5.1
+eth-keys==0.3.3
+eth-rlp==0.2.1
+eth-typing==2.2.2
+eth-utils==1.10.0
+hexbytes==0.2.1
+pycparser==2.20
+pycryptodome==3.10.1
