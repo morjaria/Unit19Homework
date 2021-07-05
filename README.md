@@ -1,6 +1,6 @@
 # Multi-Blockchain Wallet in Python
 
-![newtons-coin-cradle](Images/newtons-coin-cradle.jpg)
+![newtons-coin-cradle](images/newtons-coin-cradle.jpg)
 
 ## Background
 
@@ -53,7 +53,7 @@ def derive_wallets(mnemonic, coin, num_accounts)
 ##### Output 
 
 
-![createaccounts](Images/created_accounts.png)
+![createaccounts](images/created_accounts.png)
 
 ---
 
@@ -63,13 +63,13 @@ def derive_wallets(mnemonic, coin, num_accounts)
 ```
 keys["btc-test"][0]['address']
 ```
-![getAddress](Images/btc_test_address.png)
+![getAddress](images/btc_test_address.png)
 
 - Copy the address and paste the address at a BTC Testnet Faucet like: [this testnet faucet](https://coinfaucet.eu/en/btc-testnet/).
 
 - Use a [block explorer](https://tbtc.bitaps.com/) to validate transactions to the address.
 
-![checktransaction](Images/test_net_trans.png)
+![checktransaction](images/test_net_trans.png)
 
 ---
 
@@ -94,13 +94,13 @@ send_trx(coin="btc-test",account= btc_account,recipient="tb1ql7w62elx9ucw4pj5lgw
   ```
 Example
 
-![send_testBTC_keys](Images/btc_test_keys.png)
-![send_testBTC](Images/btc_test_send.png)
+![send_testBTC_keys](images/btc_test_keys.png)
+![send_testBTC](images/btc_test_send.png)
 
 
 - Use a [block explorer](https://tbtc.bitaps.com/) to validate transactions to the address.
 
-![checktransaction](Images/test_net_trans_send.png)
+![checktransaction](images/test_net_trans_send.png)
 
 ---
 
@@ -116,7 +116,7 @@ eth_addr = keys["eth"][0]['address']
 ```
 eth_priv = ["eth"][0]['privkey']
 ```
-![eth_get_address](Images/eth_key_Add.png)
+![eth_get_address](images/eth_key_Add.png)
 
 -  Load the account based using the private key and coin type as eth
 ```
@@ -134,11 +134,11 @@ send_trx(coin="eth",account=eth_account,recipient='0x73D167cF8bafAa2F21EC133B71c
 
   Example
 
- ![eth_send](Images/sendether.png) 
+ ![eth_send](images/sendether.png) 
 
  - Validate the transaction number generated from the above command in MyWallet app
  
-  ![Transaction Status](Images/transaction_status.png) 
+  ![Transaction Status](images/transaction_status.png) 
 
 
 
